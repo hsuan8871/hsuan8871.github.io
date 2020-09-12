@@ -21,43 +21,50 @@
 
 
   </head>
-  <body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="100">
+  <body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="80">
 
     <div class="content">
       <!-- Navigation -->
 
         <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
           <div class="container">
-          <div class="navbar-header page-scroll">
 
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                  <i class="fa fa-3x fa-bars"></i>
-              </button>
+              <div class="navbar-header page-scroll">
 
-              <a class="navbar-brand page-scroll" href="#"> <img src="img/moon.png" />Jason Hu</a>
-          </div>
-          <div class="collapse navbar-collapse navbar-main-collapse">
-              <ul class="nav navbar-nav navbar-right">
-                  <li class="hidden">
-                      <a class="page-scroll" href="#page-top"></a>
-                  </li>
-                  <li><a class="page-scroll" href="#about">About</a></li>
-                  <li><a class="page-scroll" href="#skill">Skill</a></li>
-                  <li><a class="page-scroll" href="#project">Project</a></li>
-                  <li><a class="page-scroll" href="#other">Other</a></li>
-              </ul>
-          </div>
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                      <i class="fa fa-2x fa-bars"></i>
+                  </button>
+
+                  <a class="navbar-brand page-scroll" href="#"> <img src="img/moon.png" />Jason Hu</a>
+              </div>
+              <div class="collapse navbar-collapse navbar-main-collapse">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li class="hidden">
+                          <a class="page-scroll" href="#page-top"></a>
+                      </li>
+                      <li><a class="page-scroll" href="#about">About</a></li>
+                      <li><a class="page-scroll" href="#skill">Skill</a></li>
+                      <li><a class="page-scroll" href="#project">Project</a></li>
+                      <li><a class="page-scroll" href="#other">Other</a></li>
+                  </ul>
+              </div>
+
         </div>
         </nav>
 
 
-    <!-- Introduction -->
+    <!-- Introduction-->
     <section id="intro" class="intro text-center">
         <div class="overlay">
             <div class="intro-content">
                 <h1 class="animate__animated animate__rollIn"> Hi, I'm  <strong style="color:#82E0AA"> Jason </strong>
                 </h1>
-                <p class="line anim-typewriter">Welcome to my personal Portfolio</p>
+
+                <h3>
+                  <a style="color:#fff" class="typewrite" data-period="2000" data-type='[ "Hello! ", "Welcome to my Portfolio.", "I Love Develop.", "I Love to have Fun." ]'>
+                  </a>
+                </h3>
+
                 <a class="fa fa-angle-down page-scroll" href="#about"></a>
             </div>
         </div>
@@ -152,11 +159,13 @@
         <section id="resume" data-aos="zoom-in-down">
           <div class="text-center">
             <div class="container">
-              <h2>Check my Resume!</h2>
-              <div id="resume-button">
-                  <a class="resume-btn wp4" href="resume.pdf" target="_blank"> Resume </a>
+              <div class="row">
+                  <h2>Check my Resume!</h2>
+                  <div id="resume-button">
+                      <a class="resume-btn wp4" href="resume.pdf" target="_blank"> Resume </a>
+                  </div>
               </div>
-            </div>
+          </div>
           </div>
         </section>
 
@@ -487,7 +496,7 @@
 
     </div>
 
-
+    <script src="JS/customer.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
